@@ -1,0 +1,30 @@
+# --- IDEs y Editores de texto ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# --- Carpetas de Sistema y Temporales ---
+node_modules/
+dist/
+build/
+.cache/
+
+# --- Archivos de registro ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Recursos pesados (Opcional) ---
+# Descomenta si prefieres no subir videos pesados
+# assets/videos/
+# *.mp4
+# *.mov
+
+# --- Archivos de diseño ---
+*.psd
+*.ai
+*.sketch
